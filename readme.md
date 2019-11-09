@@ -5,6 +5,9 @@
 1. 修改jdbc.properties文件的数据库地址
 2. 修改persistence.xml 
 3. 启动服务
+
+jdk1.7下运行
+
 ```xml
 <property name="hibernate.hbm2ddl.auto" value="create"/>
 ```
@@ -15,4 +18,10 @@
 然后进入地址localhost:8080/contextPath/install.htm
 
 输入后台管理员账号密码，等待安装完成。
+
+效果图
+![image](./images/20191109121825.png)
+
+
+
 

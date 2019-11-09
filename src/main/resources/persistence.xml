@@ -8,8 +8,8 @@
 		<!-- <jar-file>WEB-INF/lib/shopping-base.jar</jar-file> -->
 		<properties>
 			<property name="hibernate.show_sql" value="false" />
-			<!--<property name="hibernate.hbm2ddl.auto" value="none" />-->
-			<property name="hibernate.hbm2ddl.auto" value="create"/>
+			<property name="hibernate.hbm2ddl.auto" value="none" />
+			<!--<property name="hibernate.hbm2ddl.auto" value="create"/>-->
 			<!--Ehcache二级缓存配置-->
 			<property name="hibernate.cache.provider_class"
 				value="org.hibernate.cache.SingletonEhCacheProvider" />
